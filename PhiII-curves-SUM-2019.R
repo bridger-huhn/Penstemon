@@ -8,6 +8,9 @@ d <- data.frame(d[-1,])
 d$order <- NULL
 
 ivals <- setdiff(c(1:length(j[[1]]$sample[[1]])),55) 
+for (h in 1:length(j[[1]]$sample)) {
+  
+}
 
 for (k in 1:(length(j)-1)) {
   for (i in ivals) {
